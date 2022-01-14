@@ -3,7 +3,7 @@
 if [ -z $1 ] || [ -z $2 ]
 then
 	echo "Requires two arguments"
-	exit -1
+	exit 1
 fi
 
 filepath=$1
